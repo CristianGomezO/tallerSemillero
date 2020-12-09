@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConexionBDD {
+	
 	public static String leerPropiedad(String nombrePropiedad){
 		Properties propiedades = new Properties();
 		String valorPropiedad = "";
